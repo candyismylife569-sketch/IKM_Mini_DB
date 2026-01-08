@@ -30,7 +30,7 @@ text
 bash
 
 # Компиляция
-g++ -std=c++11 main.cpp functions.cpp -o mini_db
+g++ -std=c++11 IKM.cpp solutions.cpp -o IKM
 
 Использование
 После запуска доступно меню:
@@ -49,7 +49,7 @@ g++ -std=c++11 main.cpp functions.cpp -o mini_db
 Структура проекта
 text
 
-
+IKM.exe        #файл запуска
 IKM.cpp        # Основная программа и меню
 header.h        # Заголовочный файл с объявлениями
 solutions.cpp   # Реализация функций работы с данными
